@@ -1,0 +1,51 @@
+.managers {
+
+    @include media ('>=tablet') {
+        padding-top: 0;
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+
+            .hero-column {
+                margin-bottom: 102px;
+            }
+
+        }
+
+    }
+}
+
+.wrap {
+    @include media ('>=tablet') {
+        padding-left: 102px;
+    }
+}
+
+.text-holder {
+    &.personal-choise {
+        margin-bottom: 30px;
+    }
+
+    &.personal {
+        margin-bottom: 30px;
+        padding-left: 65px;
+        position: relative;
+        
+
+        &::before {
+            content: '';
+            position: absolute;
+            background: url("../../img/check.svg");
+            background-repeat: no-repeat;
+            top: 0px;
+            left: 0;
+            width:  35px;
+            height: 35px;
+
+            @include media ('>=tablet') {
+                top: 7px;
+            }
+        }
+    }
+}
