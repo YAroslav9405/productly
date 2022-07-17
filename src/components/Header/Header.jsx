@@ -34,7 +34,7 @@ const Header = () => {
                     <li className="btn-item">
                         <a className="btn-white" href="#">Sing In</a>
                     </li>
-                    <li class="btn-item">
+                    <li className="btn-item">
                         <a className="btn" href="#">Sing Up</a>
                     </li>
                 </ul>

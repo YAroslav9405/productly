@@ -23,7 +23,7 @@ const Design = () => {
                         </div>
                     </li>
                     <li className="tools-item">
-                        <div class="tools-img">
+                        <div className="tools-img">
                             <img src={snake} alt="image-description" className="img" width="50"/>
                         </div>
                         <div>
